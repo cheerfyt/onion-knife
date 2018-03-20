@@ -1,0 +1,27 @@
+{
+  "name": "onion",
+  "version": "0.0.1",
+  "main": "onion.js",
+  "license": "MIT",
+  "keywords": ["koa2", "onion", "control flow"],
+  "description": "koa2 middleware like work flow",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "extend": "^3.0.1",
+    "koa-compose": "^4.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.4"
+  },
+  "author": {
+    "name": "cheerfyt",
+    "email": "cheerfyt@gmail.com"
+  },
+  "engines": {
+    "node": ">=7.10.1"
+  },
+  "repository": {
+    "url": "git@github.com:cheerfyt/onion.git",
+    "type": "git"
+  }
+}
