@@ -1,5 +1,7 @@
 # onion
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cheerfyt/onion.svg)](https://greenkeeper.io/)
+
 parse your data use middleware, thanks koa team;
 
 ## api
