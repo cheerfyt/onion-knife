@@ -1,6 +1,11 @@
-# onion
+# onion-knife
 
 parse your data use middleware, thanks koa team;
+
+## install
+
+`npm install onion-knife --save`
+`yarn add onion-knife`
 
 ## api
 

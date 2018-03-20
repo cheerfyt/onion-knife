@@ -21,7 +21,7 @@
     "node": ">=7.10.1"
   },
   "repository": {
-    "url": "git@github.com:cheerfyt/onion.git",
+    "url": "git@github.com:cheerfyt/onion-knife.git",
     "type": "git"
   }
 }
