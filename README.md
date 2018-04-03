@@ -4,11 +4,12 @@ parse your data use middleware, thanks koa team;
 
 ## install
 
-`npm install onion-knife --save`
-`yarn add onion-knife`
+* `npm install onion-knife --save`
+* `yarn add onion-knife`
 
 ## api
 
+* **`static`**: `Onion.singleton()` return `Onion singleton instance`
 * `onion.use(fn)` return `this`: add middleware to stack
 * `onion.spicy(data)` return `Promise` : start parse data
 
@@ -38,6 +39,5 @@ onion
 
 ## TODO
 
-* add test
 * more options support
 * ...

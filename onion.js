@@ -2,16 +2,31 @@
  * module dependencies
  */
 const compose = require('koa-compose')
-const debug = require('debug')('onion:main')
-
 const warn = console.warn.bind(console)
 
 class Onion {
-  // TODO: add options support
   constructor() {
     this.stack = []
   }
 
+  /**
+   * * @api
+   * * @public
+   * * @return onion
+   */
+  static singleton() {
+    if (!this._singleton) {
+      this._singleton = new Onion()
+    }
+
+    return this._singleton
+  }
+
+  /**
+   * * @param {Function} fn
+   * * @public
+   * * @return onion
+   */
   use(fn) {
     if (typeof fn !== 'function') {
       warn('middleware must be a function, this md will be not work')
@@ -22,7 +37,11 @@ class Onion {
     return this
   }
 
-  // TODO: add opts support
+  /**
+   * * @param {Object|String|...} data
+   * * @public
+   * * @return {Promise}
+   */
   spicy(data) {
     if (!data) {
       throw new Error('there are no data to parse')
