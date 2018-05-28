@@ -62,3 +62,7 @@ class Onion {
 }
 
 module.exports = Onion
+
+module.exports.create = function create() {
+  return new Onion()
+}

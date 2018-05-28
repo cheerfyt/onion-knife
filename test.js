@@ -1,5 +1,6 @@
 const { expect } = require('chai')
 const Onion = require('./onion')
+const { create } = Onion
 
 describe('# Test suits', () => {
   it('@. test singleton', () => {
@@ -7,5 +8,10 @@ describe('# Test suits', () => {
     const onion2 = Onion.singleton()
 
     expect(onion1).to.be.deep.eq(onion2)
+  })
+
+  it('@. use create shortcut', () => {
+    const onion = create()
+    expect(onion instanceof Onion)
   })
 })
