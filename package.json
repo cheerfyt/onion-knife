@@ -1,6 +1,6 @@
 {
   "name": "onion-knife",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "onion.js",
   "license": "MIT",
   "scripts": {
