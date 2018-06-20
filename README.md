@@ -13,6 +13,22 @@ parse your data use middleware, thanks koa team;
 * `onion.use(fn)` return `this`: add middleware to stack
 * `onion.spicy(data)` return `Promise` : start parse data
 
+## test
+
+```bash
+npm test
+# or
+yarn test
+```
+
+## coverage
+
+```bash
+npm run coverage
+#or
+yarn coverage
+```
+
 ## example
 
 ```javascript
