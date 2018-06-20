@@ -12,8 +12,6 @@ const md2 = async function(meta, next) {
   return meta
 }
 
-
-
 let onion
 describe('# Test suits', () => {
   beforeAll(() => {
@@ -64,7 +62,5 @@ describe('# Test suits', () => {
   
     expect(fn).toThrowError('there are no data to parse');
   })
-
-
 
 })
