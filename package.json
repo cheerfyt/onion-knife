@@ -1,13 +1,17 @@
 {
   "name": "onion-knife",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "onion.js",
   "license": "MIT",
   "scripts": {
     "test": "jest -c jest.json",
     "coverage": "jest --coverage"
   },
-  "keywords": ["koa2", "onion", "control flow"],
+  "keywords": [
+    "koa2",
+    "onion",
+    "control flow"
+  ],
   "description": "koa2 middleware like work flow",
   "dependencies": {
     "koa-compose": "^4.0.0"

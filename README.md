@@ -1,17 +1,19 @@
 # onion-knife
 
+[![Build Status](https://travis-ci.org/cheerfyt/onion-knife.svg?branch=master)](https://travis-ci.org/cheerfyt/onion-knife)
+
 parse your data use middleware, thanks koa team;
 
 ## install
 
-* `npm install onion-knife --save`
-* `yarn add onion-knife`
+- `npm install onion-knife --save`
+- `yarn add onion-knife`
 
 ## api
 
-* **`static`**: `Onion.singleton()` return `Onion singleton instance`
-* `onion.use(fn)` return `this`: add middleware to stack
-* `onion.spicy(data)` return `Promise` : start parse data
+- **`static`**: `Onion.singleton()` return `Onion singleton instance`
+- `onion.use(fn)` return `this`: add middleware to stack
+- `onion.spicy(data)` return `Promise` : start parse data
 
 ## test
 
@@ -55,5 +57,5 @@ onion
 
 ## TODO
 
-* more options support
-* ...
+- more options support
+- ...
