@@ -1,0 +1,5 @@
+node {
+    script {
+        sh "wtctl"
+    }
+}
